@@ -7,19 +7,24 @@
 //Teste larissa
 
 int main() {
-    
-//variaveis da primeira carta
+    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    //variaveis da primeira carta
     int populacao;
     int numpostostur;
     float area;
     float pib;
-//variaveis da segunda carta
+    //variaveis da segunda carta
     int populacao2;
     int numpostostur2;
     float area2;
     float pib2;
 
-//primeira carta
+    
+    // Cadastro das Cartas:
+    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
+    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    // Primeira carta:
     printf("População: ");
     scanf("%d", &populacao);
 
@@ -32,14 +37,9 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &numpostostur);
 
-//mostrar primeira carta
-    printf("Carta 1: \n");
-    printf("População: %d \n", populacao);
-    printf("Área: %.5f \n", area);
-    printf("PIB: %.5f \n", pib);
-    printf("Numéro de pontos turisticos: %d \n", numpostostur);
-
-//segunda carta
+    printf("Carta 1 cadastrada \n");
+    
+    // Segunda carta
     printf("População: ");
     scanf("%d", &populacao2);
 
@@ -52,15 +52,23 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &numpostostur2);
 
-//mostrar segunda carta
+    printf("Carta 2 cadastrada \n");
+    
+    // Exibição dos Dados das Cartas:
+    //mostrar primeira carta
+    printf("Carta 1: \n");
+    printf("População: %d \n", populacao);
+    printf("Área: %.5f \n", area);
+    printf("PIB: %.5f \n", pib);
+    printf("Numéro de pontos turisticos: %d \n", numpostostur);
+    //mostrar segunda carta
     printf("Carta 2: \n");
     printf("População: %d \n", populacao2);
     printf("Área: %.5f \n", area2);
     printf("PIB: %.5f \n", pib2);
     printf("Numéro de pontos turisticos: %d \n", numpostostur2);
-
-
-
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
 }
